@@ -113,7 +113,7 @@ console.log(name); // "foo"
 
 ```javascript
 let node = {
-  type: 'Identifier,
+  type: 'Identifier',
   name: 'foo'
 };
 
