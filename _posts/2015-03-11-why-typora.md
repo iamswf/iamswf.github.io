@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Why Typora ?"
+title:  "Understanding ES6 - 函数"
 date:   2015-03-11 23:26:52
-summary: "The reason why I write another markdown editor, even though there're already too many markdown editors in this world. "
+summary: "函数在任何编程语言中都非常重要，在ECMAScript6之前，JavaScript的函数变化并不大。在ECMAScript6之前使用函数容易引起错误，而且经常为了实现一些基本逻辑写更多代码。ECMAScript6从开发者的角度出发向前迈了一大步，使得在JavaScript中使用函数更加不易错，而且功能更加强大。"
 category: typora
 ---
 
