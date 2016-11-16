@@ -33,10 +33,11 @@ flattr_button:
 markdown:     kramdown
 kramdown:
   input: GFM
-permalink:    pretty
-paginate:     3
+permalink:    date
+paginate:     5
+paginate_path: "page:num"
 sass:
   compressed: true
 
-# Gems
+# 插件
 gems: [jekyll-paginate]
