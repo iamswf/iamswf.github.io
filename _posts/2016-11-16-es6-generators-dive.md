@@ -2,7 +2,7 @@
 layout: post
 title:  "深入ES6生成器函数"
 date:   2016-11-16
-summary: ""
+summary: "如果你对ES6的生成器函数不是很熟，可以先阅读基础部分ES6生成器函数基础。弄懂了基础内容，接下来就可以进一步深入研究了。"
 category: javascript
 ---
 
@@ -40,15 +40,18 @@ var res = it.next(); // {value: 3, done: false}
 it.throw('Oops!'); // Error: Oops!
 ```
 
-
-
 这里你可以看到我们调用了迭代器的另一个方法`throw()`，向生成器函数内部抛了一个错误，而此时在生成器函数内部就好像在`yield`表达式暂停的地方抛出了一个错误，因此`try..catch`会catch住这个错误。注意如果我们向生成器函数内`throw()`了一个错误，但是并没有在生成器函数内部catch住该错误，那么错误会再反弹出去：
 
 ```javascript
-
+function *foo() {}
+var it = foo();
+try {
+  it.throw('Oops!');
+}
+catch (err) {
+  console.error('Error: ' + err); // Error: Oops!
+}
 ```
-
-
 
 
 

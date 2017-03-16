@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Understanding ES6 - 解构"
+title:  "ES6解构"
 date:   2016-11-15
 summary: "对象和数组在JavaScript中经常会用到，同时由于JSON数据格式本身就使用JavaScript语法表示，因此对象和数组是JavaScript的重要组成部分。在JavaScript中，定义对象和数组并从中抽出部分数据非常常见。ECMAScript 6增加了解构（destructuring）简化了这项操作，解构顾名思义就是将对象或者数组拆分成更小的数据部分。本章介绍怎么在对象和数组中使用解构。"
 category: javascript
