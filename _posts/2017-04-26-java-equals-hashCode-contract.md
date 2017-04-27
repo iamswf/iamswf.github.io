@@ -8,7 +8,7 @@ category: java
 
 ## Java中equals()和hashCode()之间的契约
 
-![java equals hasCode contract](/java_equals_hashCode_contract.png)
+![java equals hasCode contract](/assets/java_equals_hashCode_contract.png)
 
 Java中的宇宙祖先类`java.lang.Object`定义了两个重要的方法：
 
